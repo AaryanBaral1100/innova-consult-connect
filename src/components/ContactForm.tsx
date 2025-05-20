@@ -3,7 +3,7 @@ import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { messageSquare, globe, users } from 'lucide-react';
+import { MessageSquare, Globe, Users } from 'lucide-react';
 
 const ContactForm = () => {
   return (
@@ -21,7 +21,7 @@ const ContactForm = () => {
           <div className="lg:col-span-2 space-y-8">
             <div className="flex items-start">
               <div className="bg-innova-gold/10 p-3 rounded-full mr-4">
-                <messageSquare className="h-6 w-6 text-innova-gold" />
+                <MessageSquare className="h-6 w-6 text-innova-gold" />
               </div>
               <div>
                 <h4 className="text-lg font-semibold mb-1 text-innova-navy">Talk to Us</h4>
@@ -32,7 +32,7 @@ const ContactForm = () => {
 
             <div className="flex items-start">
               <div className="bg-innova-gold/10 p-3 rounded-full mr-4">
-                <globe className="h-6 w-6 text-innova-gold" />
+                <Globe className="h-6 w-6 text-innova-gold" />
               </div>
               <div>
                 <h4 className="text-lg font-semibold mb-1 text-innova-navy">Visit Our Office</h4>
@@ -43,7 +43,7 @@ const ContactForm = () => {
 
             <div className="flex items-start">
               <div className="bg-innova-gold/10 p-3 rounded-full mr-4">
-                <users className="h-6 w-6 text-innova-gold" />
+                <Users className="h-6 w-6 text-innova-gold" />
               </div>
               <div>
                 <h4 className="text-lg font-semibold mb-1 text-innova-navy">Working Hours</h4>

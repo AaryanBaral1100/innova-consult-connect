@@ -1,22 +1,22 @@
 
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
-import { handshake, lightbulb, users } from 'lucide-react';
+import { Handshake, Lightbulb, Users } from 'lucide-react';
 
 const About = () => {
   const values = [
     {
-      icon: users,
+      icon: Users,
       title: "Student-Centered",
       description: "We focus on each student's unique needs and goals, providing tailored guidance for their educational journey."
     },
     {
-      icon: lightbulb,
+      icon: Lightbulb,
       title: "Excellence & Innovation",
       description: "We strive for excellence in all we do, embracing innovative approaches to education consultancy."
     },
     {
-      icon: handshake,
+      icon: Handshake,
       title: "Integrity & Trust",
       description: "We uphold the highest ethical standards and build lasting relationships based on trust and transparency."
     }

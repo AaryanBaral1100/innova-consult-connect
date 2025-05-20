@@ -2,36 +2,36 @@
 import React from 'react';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from '@/components/ui/button';
-import { globe, lightbulb, briefcase, fileText, chartBar } from 'lucide-react';
+import { Globe, Lightbulb, Briefcase, FileText, ChartBar } from 'lucide-react';
 
 const Services = () => {
   const services = [
     {
-      icon: globe,
+      icon: Globe,
       title: "Study Abroad Counseling",
       description: "Expert guidance for international university applications, visa processes, and scholarships for studying abroad.",
       link: "/services/study-abroad"
     },
     {
-      icon: briefcase,
+      icon: Briefcase,
       title: "Career Development",
       description: "Personalized career planning, skill assessment, and preparation for the professional world.",
       link: "/services/career-development"
     },
     {
-      icon: fileText,
+      icon: FileText,
       title: "Application Support",
       description: "Comprehensive assistance with applications, essays, personal statements, and admission interviews.",
       link: "/services/application-support"
     },
     {
-      icon: chartBar,
+      icon: ChartBar,
       title: "Test Preparation",
       description: "Specialized coaching for standardized tests including SAT, ACT, GMAT, GRE, TOEFL, and IELTS.",
       link: "/services/test-preparation"
     },
     {
-      icon: lightbulb,
+      icon: Lightbulb,
       title: "Academic Counseling",
       description: "Guidance on course selection, major declaration, and academic improvement strategies.",
       link: "/services/academic-counseling"
